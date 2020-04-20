@@ -1,10 +1,14 @@
 header{
-    height: 70px;
+    height: 40px;
     width: 100%;
     background-color: lightgray;
 }
 footer{
-    height: 70px;
+    height: 100px;
     width: 100%;
     background-color: lightgray;
+}
+.container{
+    width: 87%;
+    padding: 50px 0;
 }
