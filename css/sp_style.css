@@ -53,6 +53,9 @@ header{
     width: 100%;
     background-color: lightgray;
 }
+nav a img{
+    width: 200px;
+}
 footer{
     height: 100px;
     width: 100%;
