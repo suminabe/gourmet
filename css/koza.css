@@ -1,19 +1,12 @@
-<<<<<<< HEAD
 /* グルーバルメニューにも影響が出ているため、設定変更 */
 /* * {
     margin: 10px;
 } */
-=======
-* {
-    margin: 10px;
-}
->>>>>>> origin/master
 
 h3 {
     background-color: mediumaquamarine;
     color: mediumvioletred;
     padding: 10px;
-<<<<<<< HEAD
     text-align: center;
 
 }
@@ -79,7 +72,5 @@ footer img .favi {
     width: 20px;
     size: auto;
 } */
-=======
 
 }
->>>>>>> origin/master
