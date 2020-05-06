@@ -35,13 +35,13 @@ h3 {
     margin-left: 1%;
     margin-top: 20px;
     margin-bottom: 100px;
-    display: flex;
+    /* display: flex; */
 }
 
 .m-container {
     width: 300px;
     height: 360px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 5px;
     border: black 1px solid;
     background-color: antiquewhite;
@@ -51,7 +51,7 @@ h3 {
 .main p {
     padding-right: 10px;
     padding-left: 10px;
-    height: 140px;
+    /* height: 140px; */
 }
 
 .m-container img {
@@ -66,11 +66,66 @@ footer img .favi {
     margin-right: 20px;
 }
 
-/* footer img .takachang {
-    float: right;
-    height: 20px;
-    width: 20px;
-    size: auto;
-} */
+/* 口コミ投稿フォーム作成 */
+.add-form {
+    border: black 2px solid;
+    background-color: rgba(181, 241, 238, 0.7);
+    width: 300px;
+    height: 360px
+}
 
+.add-form p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.add-form input {
+    margin-top: 10px;
+    height: 20px;
+    font-size: 15px;
+    width: 40px;
+}
+
+/* 口コミの星の実装 */
+.evaluation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.evaluation input[type='radio'] {
+    display: none;
+}
+
+.evaluation label {
+    position: relative;
+    padding: 10px 10px 0;
+    color: gray;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.evaluation label .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+.evaluation label:hover,
+.evaluation label:hover~label,
+.evaluation input[type='radio']:checked~label {
+    color: #ffcc00;
+}
+
+/* ------口コミの星の実装終了------ */
+/* -------地図の埋め込み-------- */
+#sample {
+    width: 700px;
+    height: 400px;
 }
