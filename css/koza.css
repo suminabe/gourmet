@@ -1,10 +1,76 @@
-* {
+/* グルーバルメニューにも影響が出ているため、設定変更 */
+/* * {
     margin: 10px;
-}
+} */
 
 h3 {
     background-color: mediumaquamarine;
     color: mediumvioletred;
     padding: 10px;
+    text-align: center;
+
+}
+
+.header {
+    background-image: url("../img/koza.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: azure;
+    text-align: center;
+    padding-top: 60px;
+    font-family: "comic sans MS";
+}
+
+.main {
+    background-color: rgba(241, 176, 12, 0.4);
+    width: 98%;
+    height: 100%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.m-container {
+    width: 300px;
+    height: 360px;
+    flex-wrap: wrap;
+    margin: 5px;
+    border: black 1px solid;
+    background-color: antiquewhite;
+    box-shadow: inset;
+}
+
+.main p {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 140px;
+}
+
+.m-container img {
+    padding: 10px;
+    size: auto;
+    height: 120px;
+    width: 120px;
+}
+
+footer img .favi {
+    float: left;
+    margin-right: 20px;
+}
+
+/* footer img .takachang {
+    float: right;
+    height: 20px;
+    width: 20px;
+    size: auto;
+} */
 
 }
