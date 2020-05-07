@@ -4,8 +4,8 @@ var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById('sample'), { // #sampleに地図を埋め込む
         center: { // 地図の中心を指定
-            lat: 34.7019399, // 緯度
-            lng: 135.51002519999997 // 経度
+            lat: 26.336442,
+            lng: 127.799614
         },
         zoom: 19 // 地図のズームを指定
     });
@@ -15,8 +15,8 @@ function initMap() {
 var map;
 var marker;
 var center = {
-    lat: 34.7019399, // 緯度
-    lng: 135.51002519999997 // 経度
+    lat: 26.336442,
+    lng: 127.799614
 };
 
 function initMap() {
@@ -36,8 +36,8 @@ var map;
 var marker;
 var infoWindow;
 var center = {
-    lat: 34.7019399, // 緯度
-    lng: 135.51002519999997 // 経度
+    lat: 26.336442,
+    lng: 127.799614
 };
 
 function initMap() {
@@ -64,7 +64,7 @@ var geocoder;
 function initMap() {
     geocoder = new google.maps.Geocoder();
     geocoder.geocode({
-        'address': '東京都千代田区神田小川町3-28-9' // TAM 東京
+        'address': '沖縄県沖縄市中央1丁目14-3' // sunabaco koza
     }, function (results, status) { // 結果
         if (status === google.maps.GeocoderStatus.OK) { // ステータスがOKの場合
             console.group('Success');
@@ -86,7 +86,7 @@ var geocoder;
 function initMap() {
     geocoder = new google.maps.Geocoder();
     geocoder.geocode({
-        'address': '東京都千代田区神田小川町3-28-9' // TAM 東京
+        'address': '沖縄県沖縄市中央1丁目14-3' // sunabaco koza
     }, function (results, status) { // 結果
         if (status === google.maps.GeocoderStatus.OK) { // ステータスがOKの場合
             map = new google.maps.Map(document.getElementById('sample'), {
@@ -109,30 +109,17 @@ var marker = [];
 var infoWindow = [];
 var markerData = [ // マーカーを立てる場所名・緯度・経度
     {
-        name: 'TAM 東京',
-        lat: 35.6954806,
-        lng: 139.76325010000005,
-        icon: 'tam.png' // TAM 東京のマーカーだけイメージを変更する
+        name: 'SUNABACO KOZA',
+        lat: 26.336442,
+        lng: 127.799614
     }, {
-        name: '小川町駅',
-        lat: 35.6951212,
-        lng: 139.76610649999998
+        name: '麺やKEIJIRO本店',
+        lat: 26.335556,
+        lng: 127.800526
     }, {
-        name: '淡路町駅',
-        lat: 35.69496,
-        lng: 139.76746000000003
-    }, {
-        name: '御茶ノ水駅',
-        lat: 35.6993529,
-        lng: 139.76526949999993
-    }, {
-        name: '神保町駅',
-        lat: 35.695932,
-        lng: 139.75762699999996
-    }, {
-        name: '新御茶ノ水駅',
-        lat: 35.696932,
-        lng: 139.76543200000003
+        name: 'りんりん',
+        lat: 26.336958,
+        lng: 127.800650
     }
 ];
 
