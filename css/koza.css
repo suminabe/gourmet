@@ -129,6 +129,14 @@ form {
     padding: 2px 5%;
 }
 
+
+
+
+img.nakata_syasin{
+    width: 30%;
+    height: 30%;
+  
+ }
 /* ------口コミの星の実装終了------ */
 /* -------地図の埋め込み-------- */
 #sample {
